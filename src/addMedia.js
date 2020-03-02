@@ -28,7 +28,7 @@ export function addNewMediaDiv(){
     const buttonNewMedia = media.createElement("button",["btn","btn-primary","newMediaCreator"])
     buttonNewMedia.textContent = "+"
     buttonNewMedia.addEventListener("click",()=>{
-        newMediaDiv.style.visibility = "visible";
+        newMediaDiv.style.display = "block";
         divButtonNewMedia.remove()
     })
     divButtonNewMedia.appendChild(buttonNewMedia)

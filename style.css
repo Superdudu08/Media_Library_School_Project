@@ -48,7 +48,7 @@ main {
 
 .addMediaDiv {
     padding: 10px;
-    visibility: hidden;
+    display:none;
 }
 
 
