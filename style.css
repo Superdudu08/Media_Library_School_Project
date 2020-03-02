@@ -27,7 +27,8 @@ main {
 }
 
 .mediaItem > img {
-    height: 400px;
+    height: 280px;
+    max-width: 100%;
 }
 
 .mediaContent > .btn {
