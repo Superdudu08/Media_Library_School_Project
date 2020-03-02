@@ -1,0 +1,26 @@
+{
+  "name": "mediatek",
+  "version": "0.0.0",
+  "description": "A simple Mediatek",
+  "scripts": {
+    "test": "ava",
+    "start": "http-server ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "esm": "^3.2.25",
+    "serve": "^11.2.0"
+  },
+  "ava": {
+		"require": [
+			"esm"
+    ],
+    "babel": false,
+		"extensions": [
+			"js",
+			"mjs"
+		]
+	}
+}

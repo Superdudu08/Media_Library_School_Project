@@ -1,0 +1,90 @@
+
+body {
+    background-color:darkgrey;
+}
+main {
+    text-align : center;
+}
+
+.mediaCollection {
+    padding : 15px;
+    display : flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.mediaItem {
+    border: 1px solid black;
+    width: 23%;
+    padding-top: 8px;
+    border-radius: 20px;
+    margin-right: 2%;
+    margin-bottom : 15px;
+    background-color:white;
+}
+
+.mediaContent {
+    padding : 10px
+}
+
+.mediaItem > img {
+    width : 100%;
+    height: auto;
+}
+
+.mediaContent > .btn {
+    width : 45%;
+    margin-right: 1%
+}
+
+.nav-item {
+    cursor: pointer
+}
+
+@media screen and (max-width:1200px){
+    .mediaItem{
+        width: 300px;
+    }
+}
+
+.addMediaDiv {
+    padding: 10px;
+    visibility: hidden;
+}
+
+
+.newMediaCreator {
+    padding : 50px;
+    border-radius : 100%;
+    margin-top:60%;
+    font-size: 3rem;
+}
+
+#liMovieToAddFromAPI{
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+#addMedia {
+    display: flex;
+    flex-direction: column;
+}
+
+#durationNewMedia, #nbPlayersNewMedia, #nbTracksNewMedia {
+    width: 100%;
+}
+
+.buttonAjoutMediaForm {
+    margin-top:5px
+}
+
+.flexRowDiv {
+    display:flex;
+    justify-content: space-around;
+}
+
+.plot {
+    height: 150px;
+    overflow-y: auto;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
